@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    flex: auto;
+}
+
+.main {
+    flex: 2;
+    overflow-y: auto
+}
+
+.sidebar {
+    flex: 1;
+    overflow-y: auto
+}
