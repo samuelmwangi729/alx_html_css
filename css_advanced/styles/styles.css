@@ -146,3 +146,83 @@ section.quotes {
 div.quote blockquote {
     margin-bottom: 3rem;
 }
+
+
+/**
+===========================================
+THE STYLES FOR THE POPULAR COURSES SECTION
+==========================================
+1. Set the display to flex
+2. set the width of the tutorials to 80% and align center
+3. code becoming longer to comment 😁😁
+**/
+
+.popular_tutorials h2 {
+    text-align: center;
+}
+
+.text-primary {
+    color: var(--primary-color)
+}
+
+.popular_tutorials {
+    margin: 5rem;
+}
+
+div.tutorials {
+    width: 70%;
+    margin: auto;
+    align-self: center;
+    display: flex;
+    margin-top: 5rem;
+    justify-content: start;
+    gap: 2rem;
+}
+
+div.tutorial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    width: 25%;
+}
+
+.description_text {
+    color: gray;
+    text-wrap: wrap;
+    text-align: center;
+}
+
+div.author {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 1em;
+    left: 5%;
+    top: 48%;
+}
+
+div.author {
+    width: 100%;
+}
+
+div.author img {
+    width: 50px;
+    height: 50px;
+    text-align: start;
+}
+
+div.rating_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 95%;
+}
+
+div.ratings {
+    display: flex;
+    justify-content: space-between;
+}
