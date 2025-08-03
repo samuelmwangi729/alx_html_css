@@ -1,5 +1,8 @@
 :root {
-    --primary-color: #C271FF
+    --primary-color: #C271FF;
+    --primary-text: #C271FF;
+    --secondary-text: #ffff;
+    --secondary-color: #071629
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
@@ -225,4 +228,50 @@ div.rating_section {
 div.ratings {
     display: flex;
     justify-content: space-between;
+}
+
+
+/**
+===============================
+membership section styles here
+==============================
+**/
+
+.membership {
+    width: 100%;
+    background-color: var(--secondary-color);
+    color: var(--secondary-text);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.membership h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+div.membership_plans {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 3rem;
+}
+
+.single_plan {
+    margin: 0 auto;
+    text-align: center;
+    width: 20%;
+}
+
+.single_plan img {
+    width: 50px;
+}
+
+.single_plan p {
+    text-align: center;
+    text-wrap: wrap;
 }
