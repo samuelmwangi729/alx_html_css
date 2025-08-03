@@ -1,0 +1,125 @@
+:root {
+    --primary-color: #C271FF
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(../assets/Object.png);
+    background-position: top;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.banner {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta h1 {
+    color: white;
+    font-size: 100px;
+    letter-spacing: 5px;
+    font-family: 'Source Sans Pro';
+}
+
+div.spans {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px
+}
+
+button.cta_button {
+    margin-top: 30px;
+    background-color: var(--primary-color);
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 2px 2px solid black;
+}
+
+div.explanation_div {
+    position: absolute;
+    top: 100%;
+    left: 0
+}
+
+div.explanation_div h2 {
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+div.explanation_div h2 span.highlight {
+    color: var(--primary-color);
+    font-size: 30px;
+    align-self: center;
+}
+
+div.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+    margin-top: 5rem
+}
+
+div.images img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+.text-white {
+    color: white;
+}
+
+div.mgt_part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
