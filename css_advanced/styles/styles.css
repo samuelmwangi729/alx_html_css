@@ -123,3 +123,26 @@ div.mgt_part {
     align-items: center;
     text-align: center;
 }
+
+
+/**
+=====================================
+THIS IS THE QUOTES PART
+1. I set the background color to what
+was required
+2. spaced out the blockquote element
+=====================================
+**/
+
+section.quotes {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    gap: 2rem;
+}
+
+div.quote blockquote {
+    margin-bottom: 3rem;
+}
