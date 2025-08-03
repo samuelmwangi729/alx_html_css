@@ -246,6 +246,7 @@ membership section styles here
     justify-content: space-around;
     align-items: center;
     padding: 2rem;
+    height: 50vh;
 }
 
 .membership h2 {
@@ -259,6 +260,8 @@ div.membership_plans {
     justify-content: space-around;
     gap: 20px;
     margin-top: 3rem;
+    width: 70%;
+    margin: auto;
 }
 
 .single_plan {
@@ -274,4 +277,34 @@ div.membership_plans {
 .single_plan p {
     text-align: center;
     text-wrap: wrap;
+}
+
+
+/**
+=================
+FOR THE FAQs
+=================
+**/
+
+.faq {
+    width: 100%;
+    padding: 5rem;
+}
+
+.faq h2 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.faq_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10rem;
+}
+
+.faq_div div {
+    padding: 20px;
 }
